@@ -33,7 +33,7 @@
                             is-invalid @enderror" id="name"
                              name="name"placeholder="Name">
                               @error('name')
-                        <p class="invalid-feedback">{{$message}}</p> 
+                        <p class="invalid-feedback"> {{$message}}</p> 
                         @enderror
                         </div>
                        
